@@ -1,0 +1,73 @@
+@media (min-width: 840px) {
+    body {
+        width: 75%;
+        font-size: 18px;
+    }
+    nav ul h4 {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 840px) {
+    body {
+        width: 90%;
+        font-size: 12px;
+    }
+    nav ul h4 {
+        font-size: 11px;
+    }
+}
+
+/* General Styles */
+body {
+    align-content: center;
+    font-family: Arial, sans-serif;
+    padding: 0;
+/*    margin: 0;*/
+    margin: 60px auto;
+}
+
+header {
+    background-color: #f8f8f8;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    max-width: 50px;
+    margin-right: 20px;
+}
+
+h1 {
+    margin: 0;
+    color: #333;
+}
+
+/* Introduction Section Styles */
+#introduction {
+    padding: 20px;
+    text-align: justify;
+}
+
+/* People Section Styles */
+#people {
+    padding: 20px;
+}
+
+.person-row {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.person {
+    text-align: center;
+}
+
+.person img {
+    max-width: 150px;
+    border-radius: 50%;
+}
+
+/* Add more styles as needed */
