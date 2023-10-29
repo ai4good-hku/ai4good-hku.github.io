@@ -1,6 +1,6 @@
 @media (min-width: 840px) {
     body {
-        width: 75%;
+        width: 840px;
         font-size: 18px;
     }
     nav ul h4 {
@@ -66,7 +66,7 @@ h1 {
 }
 
 .person img {
-    max-width: 150px;
+    max-width: 120px;
     border-radius: 50%;
 }
 
